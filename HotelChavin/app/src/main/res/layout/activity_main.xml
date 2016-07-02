@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.hotelchavin.MainActivity"
+    android:background="#795548">
+
+    <ImageView
+        android:src="@drawable/chavinhotel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:text="El Hotel Chavín es un hotel 3 estrellas. Cuenta con restaurante, piscina, discoteca y una playa de estacionamiento."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:text="Teléfono:\n235-2253 / 235-2358"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:text="Email:\ninfo@hotelchavin.com.pe\nhotelchavin@gmail.com"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:text="Dirección:\nJosé Gálvez | Barranca, Lima, Perú"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="19sp"
+        android:layout_margin="12dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:text="Reservar Habitación"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp" />
+</LinearLayout>
